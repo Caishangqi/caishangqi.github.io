@@ -1,20 +1,20 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
-logo: 
-author: themefisher
+title: Arcane Travel
+logo:
+author: GonerAge project
 description: this is meta description
-email: steve.fruits@email.com
+email: lplcai@ucdavis.edu
 phone: +880 2544 658 256
 address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-- {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
-- {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+- {name: 关于, link: '/about'}
+- {name: 档案, link: '/blog'}
+- {name: 图片档案, link: '/portfolio'}
+- {name: 联系我们, link: '/contact'}
 
 
 #-------------------------------
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: 奥术之旅 <br> 沉浸式 <br> 休闲旅途
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -55,7 +55,7 @@ blurb:
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: 了解更多
 
 
 # About Page
@@ -65,11 +65,11 @@ work-process:
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
+
   - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
+
   - title : "Deliver"
     icon : "assets/images/icons/print.png"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -80,11 +80,11 @@ team:
   - title : "Jack Schenziwe"
     image : "assets/images/team/member-1.png"
     designation : "Project Manager"
-    
+
   - title : "Julias Carlie"
     image : "assets/images/team/member-2.png"
     designation : "Web Developer"
-    
+
   - title : "John Doe"
     image : "assets/images/team/member-3.png"
     designation : "Designer"
@@ -93,18 +93,17 @@ team:
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: 元素开发阶段
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
-
+- {name: 生存冒险, color: '#fdb157', value: '40%'}
+- {name: 物品内容, color: '#9473e6', value: '10%'}
+- {name: 地牢挑战, color: '#bdecf6', value: '20%'}
+- {name: 家具美化, color: '#ffbcaa', value: '40%'}
 
 #-------------------------------
 # Exprerience Section
 
-experience-title: Experience
+experience-title: 元素支持
 experience:
 - {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
 - {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
@@ -114,18 +113,18 @@ experience:
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: 里程碑
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: 拥有清晰的目标, date: '2021', organization: '带给玩家最好的视觉和游戏体验'}
+- {name: 过去的大风大浪, date: '2019', organization: '载体服务器的创建与运行'}
+- {name: 冒险世界的初衷, date: '2018', organization: 'SecondTech等服务器运行'}
+
 
 
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: 元素特色
 services:
 - {
     name: UI Design,
@@ -148,6 +147,7 @@ services:
 
 
 
+
 #-------------------------------
 # Portfolio (Section and Page)
 
@@ -155,16 +155,16 @@ services:
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-4.png"
     url: "#"
-    
+
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
 
@@ -190,45 +190,45 @@ portfolio-items:
     portfolio-type:
      - type: "design"
      - type: "illustration"
-      
+
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     portfolio-type:
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     portfolio-type:
       - type: "illustration"
-      
+
   - image : "assets/images/portfolio/item-6.png"
     url: "#"
     portfolio-type:
       - type: "design"
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-8.png"
     url: "#"
     portfolio-type:
       - type: "illustration"
-      
+
   - image : "assets/images/portfolio/item-5.png"
     url: "#"
     portfolio-type:
       - type: "design"
-      
+
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-3.png"
     url: "#"
     portfolio-type:
       - type: "design"
       - type: "illustration"
       - type: "branding"
-      
+
   - image : "assets/images/portfolio/item-7.png"
     url: "#"
     portfolio-type:
@@ -243,12 +243,12 @@ testimonial-items:
     image: "assets/images/testimonial/client-1.png"
     designation : "CEO, Funder"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
+
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
     designation: "CEO, Funder"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
+
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
     designation: "CEO, Funder"
@@ -261,31 +261,31 @@ testimonial-items:
 client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-2.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-3.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-4.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-2.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-3.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-4.png"
     url: "#"
-    
+
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
 

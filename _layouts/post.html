@@ -6,7 +6,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">文章</h1>
+        <h1 class="text-white font-tertiary">{% for tag in page.tags %}<span>{{ tag }} </span>{% endfor %}</h1>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ layout: default
         <p class="font-secondary">Published on {{ page.date | date: '%b %d, %Y' }} by <span class="text-primary">{{ page.author }}</span
             class="text-primary"> on {% for tag in page.tags %}<span>{{ tag }} </span>{% endfor %}</p>
         <div class="content">
-          <img src="{{page.image | relative_url }}" class="img-fluid rounded float-left mr-5 mb-4" alt="{{page.title}}">
+          <img src="{{page.image | relative_url }}" class="img-fluid rounded float-left mr-5 mb-4 btn btn-x1 btn-box" alt="{{page.title}}">
           {{ content }}
         </div>
       </div>
@@ -46,7 +46,7 @@ layout: default
       <div class="col-12 text-center">
         <h2 class="section-title text-white">相似文章</h2>
       </div>
-      {% for post in site.posts offset:0 limit:3 %}
+      {% for post in site.posts offset:0 limit:2 %}
       {% include post.html %}
       {% endfor %}
     </div>

@@ -29,6 +29,11 @@
     padding: 5px 10px;
     font-size: 15px;
   }
+/*  适用于博客的边宽*/
+  &-x1 {
+    padding: 1px 1px;
+    font-size: 15px;
+  }
 }
 
 .btn-primary {
@@ -50,6 +55,44 @@
   }
 }
 
+.btn-secondary {
+  background: $black;
+  color: $white;
+
+  &:active {
+    background: lighten($color: $black, $amount: 10) !important;
+  }
+
+  &:hover {
+    background: lighten($color: $black, $amount: 10);
+  }
+
+  &.focus,
+  &.active {
+    background: lighten($color: $black, $amount: 10) !important;
+    box-shadow: none !important;
+  }
+}
+
+.btn-box{
+  /*这是每个博客旁边的小框*/
+  background: $text-color-light;
+  color: $gray;
+
+  &:active {
+    background: lighten($color: $primary-color, $amount: 5) !important;
+  }
+
+  &:hover {
+    background: lighten($color: $primary-color, $amount: 5);
+  }
+
+  &.focus,
+  &.active {
+    background: lighten($color: $primary-color, $amount: 5) !important;
+    box-shadow: none !important;
+  }
+}
 
 .btn-transparent {
   background: transparent;

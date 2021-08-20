@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Arcane Travel
+title: 欢迎来到奥术之旅
 logo:
 author: GonerAge project
 description: this is meta description
@@ -11,8 +11,8 @@ address: 125/A, CA Commercial Area, California, USA
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
-- {name: 关于, link: '/about'}
-- {name: 档案, link: '/blog'}
+- {name: 规则, link: '/about'}
+- {name: 社区博客, link: '/blog'}
 - {name: 图片档案, link: '/portfolio'}
 - {name: 联系我们, link: '/contact'}
 
@@ -52,38 +52,60 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
+  奥术之旅只是一个1.17服务器仅此而已，但是！
 blurb-btn-link: '/about'
-blurb-btn-name: 了解更多
+blurb-btn-name: 秘术规则
 
 
 # About Page
 
 # Work Process Section
 work-process:
+  - title : "不尊重/攻击性语言和仇恨言论"
+    icon : "assets/images/icons/caltion.png"
+    content : "包括种族歧视,包括但不不亚于转型别歧视等"
+
+  - title : "故意避开聊天过滤器"
+    icon : "assets/images/icons/caltion.png"
+    content : "使用任何手段欺骗或者绕过聊天屏蔽器,包括使用空格，特殊符号方言等"
+
+  - title : "任何形式的垃圾信息"
+    icon : "assets/images/icons/caltion.png"
+    content : "包括任何广告，无意义信息，暗语和数量众多令人困惑的信息"
+
+  - title : "骚扰和欺负他人"
+    icon : "assets/images/icons/caltion.png"
+    content : "对他人进行任何语言骚扰包括频繁@他人或者对其他人进行语言暴力"
+
+  - title : "暴露他人隐私"
+    icon : "assets/images/icons/caltion.png"
+    content : "暴露他人地址或者IP或按着任何有关对方不想让你提及的事情"
+
+  - title : "宣传其他服务器"
+    icon : "assets/images/icons/caltion.png"
+    content : "包括但不限于推广他人服务器，发送服务器IP官网等等"
+bad-behaviros:
   - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    icon : "assets/images/icons/caltion.png"
+    content : "实例"
 
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
+third-modification:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/caltion.png"
+    content : "实例"
+use-bug:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/caltion.png"
+    content : "实例"
 # My Team Section
 team:
-  - title : "Jack Schenziwe"
+  - title : "Caizii"
     image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
+    designation : "项目管理"
 
-  - title : "Julias Carlie"
+  - title : "Kelt.J"
     image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
+    designation : "画师"
 
   - title : "John Doe"
     image : "assets/images/team/member-3.png"
@@ -105,9 +127,9 @@ skills:
 
 experience-title: 元素支持
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: SpigotMC, icon: 'icon-1.png', date: '2012 - 2021', organization: 'SpigotMC Pty. Ltd.'}
+- {name: PaperMC, icon: 'icon-2.png', date: '2015 - 2021', organization: 'The PaperMC Team'}
+- {name: GonerAge, icon: 'icon-3.png', date: '2018 - 2021', organization: 'GonerAgeTeam'}
 
 
 #-------------------------------
@@ -153,20 +175,20 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
+  # - image : "assets/images/portfolio/item-1.png"
+  #   url: "#"
+  #
+  # - image : "assets/images/portfolio/item-2.png"
+  #   url: "#"
+  #
+  # - image : "assets/images/portfolio/item-3.png"
+  #   url: "#"
+  #
+  # - image : "assets/images/portfolio/item-4.png"
+  #   url: "#"
+  #
+  # - image : "assets/images/portfolio/item-5.png"
+  #   url: "#"
 
 
 # Portfolio Page
@@ -239,21 +261,18 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
+  - name: "Caizii"
     image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
+    designation : "项目创始人"
+    content: "什么情况？"
+  - name: "Kelt.J"
+    image: "assets/images/testimonial/client-3.png"
+    designation: "画师,模型制作"
+    content: "啊?<strong>不会吧</strong>"
+  - name: "Ruby Wu"
+    image: "assets/images/testimonial/client-2.png"
+    designation: "地形策划"
+    content: "行行行,你说的都对"
 
 #-------------------------------
 # Client Slider Section

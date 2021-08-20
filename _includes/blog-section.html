@@ -3,7 +3,10 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Blogs</h2>
+        <h2 class="font-tertiary mb-2 text-white">社区博客</h2>
+
+        <h6 class="font-tertiary paragraph-lg text-white">随时了解最新的文章和动态！</h6>
+                <br></br>
       </div>
       {% for post in site.posts offset:0 limit:3 %}
       {% include post.html %}

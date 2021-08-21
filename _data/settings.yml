@@ -8,7 +8,7 @@ description: this is meta description
 email: lplcai@ucdavis.edu
 phone: +880 2544 658 256
 address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+copyright: Copyright &copy; 2020 Designed by [Caizii](https://space.bilibili.com/57935076) 由 [Getjekyllthemes](https://getjekyllthemes.com) 开发
 
 menu:
 - {name: 规则, link: '/about'}
@@ -52,9 +52,9 @@ social:
 
 # About Section
 blurb:
-  奥术之旅只是一个1.17服务器仅此而已，但是！
+  Arcane Travel(奥术之旅)是弃用作品 奥数年代(Arcane Age) 的重制版，与其说是重制版不如说他是一个新的分支的开启，在经历过无数模组服的修改和尝试，我们打算给大家带来更加稳定和更注重社交冒险的 Arcane Travel。在这里，你将会来到一片神秘且有趣的新大陆，探索这里的一切，又或者更随着以前人们留下来的信息去探索这庞大大陆背后的故事。建立自己精致的家园，酿造出最好的药水，打造出传奇武器，这些尽在这次旅途中...
 blurb-btn-link: '/about'
-blurb-btn-name: 秘术规则
+blurb-btn-name: 请遵守秘术规则
 
 
 # About Page
@@ -169,21 +169,21 @@ education:
 services-title: 元素特色
 services:
 - {
-    name: UI Design,
+    name: 绝多的界面,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
+    description: '就是很多',
+    active:  # Add true to select section
   }
 - {
-    name: UX Design,
+    name: 技能奥术,
     icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: '我想想，现在有80种奥术技能?',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
+    name: 没想好,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: '这个我也没想好该写啥',
     active: # Add true to select section
   }
 

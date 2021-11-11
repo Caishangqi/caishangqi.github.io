@@ -1,0 +1,23 @@
+<div class="col-lg-4 col-sm-6 mb-4">
+  <article>
+    <a href="{{ post.url | relative_url }}" class="btn btn-x1 btn-box">
+    <img class="rounded card-img-top" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </a>
+    <div class="card-body btn-post" align = "center">
+      <h4 class="card-title" align = "center">
+        <a class="text-white font-tertiary" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h4>
+      <!-- <p class="card-text"> {% assign curlyend = '}' %}{{ post.excerpt | markdownify | strip_html | replace: "{% include JB/setup %", "" | replace: curlyend, "" | truncatewords: 30 }}</p> -->
+      <!-- href="{{ post.url | relative_url }}"  -->
+      <a class=" btn-post btn btn-xs" >{% for tag in post.tags %}<span>
+        <!-- 基于post的新的属性color进行遍历 -->
+        {% for color in post.color %}
+        <span class="font-tertiary" style="color: {{color}};">{{ tag }}</span>
+        {% endfor %}
+        </span>{% endfor %}</a>
+      <a class="text-light font-tertiary mb-1" align = "center">–&nbsp&nbsp{{ post.date | date: '%b %d, %Y' }}</a>
+    </div>
+  </article>
+</div>
+
+<!--class="card shadow"-->

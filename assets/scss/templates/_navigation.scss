@@ -18,14 +18,23 @@
   .nav-item{
     .nav-link{
       font-family: $tertiary-font;
+      font-size: 30px;
       text-transform: uppercase;
-      padding: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     &.active{
       font-weight: bold;
     }
   }
 }
+
+#main.active{
+  background-color: #4CAF50;
+  color: white;
+}
+
+
 
 .navbar-dark .navbar-nav .nav-link{
   color: $white;

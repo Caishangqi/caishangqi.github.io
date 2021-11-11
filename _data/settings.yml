@@ -13,8 +13,8 @@ copyright: Copyright &copy; 2020 Designed by [Caizii](https://space.bilibili.com
 menu:
 - {name: 规则, link: '/about'}
 - {name: 社区博客, link: '/blog'}
-- {name: 图片档案, link: '/portfolio'}
-- {name: 联系我们, link: '/contact'}
+# - {name: 图片档案, link: '/portfolio'}
+# - {name: 商店, link: '/contact'}
 
 
 #-------------------------------

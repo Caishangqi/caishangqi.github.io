@@ -28,6 +28,7 @@
   &-xs {
     padding: 5px 10px;
     font-size: 15px;
+
   }
 /*  适用于博客的边宽*/
   &-x1 {
@@ -64,7 +65,7 @@
   }
 
   &:hover {
-    background: lighten($color: $black, $amount: 10);
+    background: lighten($color: $black, $amount: 1); //改透明的
   }
 
   &.focus,
@@ -72,6 +73,11 @@
     background: lighten($color: $black, $amount: 10) !important;
     box-shadow: none !important;
   }
+}
+
+.btn-post {
+  background: $black;
+  color: $primary-color;
 }
 
 .btn-box{
